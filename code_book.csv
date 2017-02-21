@@ -1,0 +1,10 @@
+variable,explanation
+found.by.ref,Binary. 0 = found from serach with search string as given in article
+inc.screen,Binary. 0 = excluded from the study after reading the abstract/summary
+inc.final,Binary. 0 = excluded from the study after reading the full publication. NA if inc.screen = 0
+reason,Reason for exclusion. Nominal. NA if article is included. Otherwise: 1 = stratification on country of origin or reason for migration does not allow for inference on the health of refugees or asylum seekers; 2 = not relevant study population; 3 = not relevant study design or aim of study; 4 = not possible to retrieve additional information
+mig.def,Migrant definition. Nominal. 0 =  there is no information on how migrant is defined otherwise; 1 =  based on country of birth; 2 = refugees; 3 = familiy reunificated; 4 = asylum seekers; 5 = border-crossing
+rsn.migr,Reason for migration. Binary. 0 = analysis are not reported stratified on reason for migration
+inc.start,Inclusion start. Discrete. The year of the beginning of the study or data collection
+inc.stop,Inclusion stop. Discrete. The year that the study or data collection ends
+ethni,Report stratified on country of origin. Nominal. 0 =  there is no stratification on contry of origin; 1 = country; 2 = world region
