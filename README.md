@@ -8,5 +8,5 @@ The R-code contain the full code for reading, managing and analysing the data as
 
 They are all freely available under the CC-BY-4.0 license.
 
-Any questions or comments are welcomed at eiset@ph.au.dk
+Questions and comments are welcomed at eiset@ph.au.dk
 
